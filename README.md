@@ -8,3 +8,9 @@ Implementation for below TASK:
 5-Now set the initial value of Number to 0.
 6-After the execution of Jmeter, the value of the number in the database shall be 5000. (Try the same with a bigger number 100000)
 7-The API should be scalable i.e. if deployed on multiple machines with same database, the result should be consistent.
+
+Follow below steps before running project:
+1-Setup Mysql server with username "root" & password "tiger".
+2-Create a database called "logistic"[Create Database logistic].
+3-Create a table "number" [Create table logistic (id int PRIMARY KEY,index_counter int)
+
