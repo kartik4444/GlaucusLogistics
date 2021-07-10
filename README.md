@@ -12,5 +12,6 @@ Implementation for below TASK:
 Follow below steps before running project:
 1-Setup Mysql server with username "root" & password "tiger".
 2-Create a database called "logistic"[Create Database logistic].
-3-Create a table "number" [Create table logistic (id int PRIMARY KEY,index_counter int)
+3-Create a table "number" [Create table logistic (id int PRIMARY KEY,index_counter int)]
+4-Initialize both id and index_counter values with 0 [Insert into number values(0,0)]
 
