@@ -15,3 +15,6 @@ Follow below steps before running project:
 3-Create a table "number" [Create table logistic (id int PRIMARY KEY,index_counter int)]
 4-Initialize both id and index_counter values with 0 [Insert into number values(0,0)]
 
+Jmeter Test results can be Found in main repository
+1-Tcmysql.jmx jmeter test plan file
+2-testresults.jtl jmeter test result.
