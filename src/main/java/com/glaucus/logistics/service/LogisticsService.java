@@ -12,6 +12,9 @@ import com.glaucus.logistics.repository.LogisticsRepository;
 
 import ch.qos.logback.classic.Logger;
 
+/*
+ * Logistics Service class
+ */
 @Service
 public class LogisticsService {
 
@@ -26,6 +29,9 @@ public class LogisticsService {
 		this.model=model;
 	}
 
+	/*
+	 * Business code to increment counter in Database
+	 */
 	public ResponseEntity<String> incrementService() {
 		synchronized (lock) {
 			try {

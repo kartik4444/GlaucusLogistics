@@ -5,7 +5,9 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 
 import lombok.Data;
-
+/*
+ * Logistic Data Model Class
+ */
 @Data
 @Entity(name = "number")
 public class LogisticModel {
