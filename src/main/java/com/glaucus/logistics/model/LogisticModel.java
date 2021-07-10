@@ -14,5 +14,5 @@ public class LogisticModel {
 	private Integer id = 0;
 
 	@Column(name = "index_counter")
-	private Integer index_counter;
+	private Integer indexCounter;
 }

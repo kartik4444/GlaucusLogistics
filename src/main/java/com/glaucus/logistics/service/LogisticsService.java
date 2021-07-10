@@ -33,7 +33,7 @@ public class LogisticsService {
 			log.info("Current index_counter value: {}",currSeq);
 			currSeq++;
 			log.info("Incremented index_counter value: {}",currSeq);
-			model.setIndex_counter(currSeq);
+			model.setIndexCounter(currSeq);
 			repository.save(model);
 			return new ResponseEntity<String>("Success",HttpStatus.OK);
 			} catch (DataAccessException e) {
